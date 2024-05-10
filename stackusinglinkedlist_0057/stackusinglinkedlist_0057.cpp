@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 class Node {
@@ -11,6 +12,7 @@ class Node {
 	   }
 
 };
+
 class Stack {
 private:
 	Node* top;
@@ -36,4 +38,11 @@ void pop() {
 	}
 	cout << "Popped : " << top->data << endl;
 	top = top->next;
+}
+
+void peek() {
+	if (top == NULL) {
+		cout << "List is empty." << endl;
+	}
+	
 }
