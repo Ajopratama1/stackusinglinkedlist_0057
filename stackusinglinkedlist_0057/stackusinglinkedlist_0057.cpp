@@ -31,5 +31,7 @@ int push(int value) {
 }
 
 void pop() {
-	
+	if (isEmpty()) {
+		cout << "Stack is empty." << endl;
+	}
 }
