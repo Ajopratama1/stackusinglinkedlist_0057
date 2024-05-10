@@ -89,6 +89,9 @@ int main() {
 			  if (!stack.isEmpty()) {
 				  stack.peek();
 			  }
+			  else {
+				  cout << "Exiting program." << endl;
+			  }
 		}
 	}
 }
