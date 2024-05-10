@@ -81,6 +81,9 @@ int main() {
 			  if (!stack.isEmpty()) {
 				  stack.pop();
 			  }
+			  else {
+				  cout << "Stack is empty. No top value." << endl;
+			  }
 
 		}
 	}
