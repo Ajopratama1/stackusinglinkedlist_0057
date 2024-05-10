@@ -90,7 +90,7 @@ int main() {
 				  stack.peek();
 			  }
 			  else {
-				  cout << "Exiting program." << endl;
+				  cout << "stack is empty. No top value." << endl;
 			  }
 		}
 	}
